@@ -16,3 +16,4 @@ C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework\bin\Debug\net9.0\Microsoft.Ext
 C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework\obj\Debug\net9.0\FirstMiniHomework.csproj.AssemblyReference.cache
 C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework\obj\Debug\net9.0\FirstMin.D3794E4E.Up2Date
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework\obj\Debug\net9.0\FirstMiniHomework.sourcelink.json
