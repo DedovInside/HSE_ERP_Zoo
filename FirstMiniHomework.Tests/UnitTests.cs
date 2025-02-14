@@ -2,6 +2,7 @@
 {
     public class ZooTests
     {
+        // Тест на проверку добавления здорового животного в зоопарк
         [Fact]
         public void AddAnimal_ShouldAddHealthyAnimal()
         {
@@ -18,7 +19,8 @@
             // Assert
             Assert.Contains(animal, zoo.Animals);
         }
-
+        
+        // Тест на проверку недобавления больного животного в зоопарк
         [Fact]
         public void AddAnimal_ShouldNotAddSickAnimal()
         {
@@ -35,6 +37,7 @@
             Assert.DoesNotContain(animal, zoo.Animals);
         }
 
+        // Тест на проверку добавления стола в зоопарк
         [Fact]
         public void AddThing_ShouldAddTableToInventory()
         {
@@ -50,6 +53,7 @@
             Assert.Contains(table, zoo.Inventory);
         }
 
+        // Тест на проверку добавления компьютера в зоопарк
         [Fact]
         public void AddThing_ShouldAddComputerToInventory()
         {
@@ -66,6 +70,7 @@
         }
 
 
+        // Тест на проверку подсчета общего количества еды для всех животных в зоопарке
         [Fact]
         public void FoodConsumption_ShouldReturnTotalFood()
         {
@@ -92,6 +97,7 @@
             Assert.Equal(37, totalFood);
         }
         
+        // Тест на вывод животных, которые могут взаимодействовать с посетителями
         [Fact]
         public void PrintInteractiveAnimals_ShouldPrintInteractiveAnimals()
         {
@@ -129,6 +135,7 @@
             Assert.DoesNotContain(unKindRabbit, interactiveAnimals);
         }
         
+        // Тест на вывод всего, что стоит на балансе зоопарка (животные и предметы)
         [Fact]
         public void PrintInventory_ShouldPrintCorrectInventory()
         {

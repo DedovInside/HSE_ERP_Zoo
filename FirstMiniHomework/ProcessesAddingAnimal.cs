@@ -1,7 +1,17 @@
 ﻿namespace FirstMiniHomework
 {
+    /// <summary>
+    /// Класс, содержащий процессы добавления животных в зоопарк
+    /// </summary>
     public static class ProcessesAddingAnimal
     {
+        /// <summary>
+        /// Основной метод по добавлению животного в зоопарк
+        /// </summary>
+        /// <param name="zoo"></param>
+        /// <param name="existingTypesOfAnimals">Существующие на данный момент типы животных</param>
+        /// <param name="existingPredatorSpecies">Существующие на данный момент виды хищников</param>
+        /// <param name="existingHerboSpecies">Существующие на данный момент виды травоядных</param>
         public static void AddAnimal(Zoo zoo, List<string> existingTypesOfAnimals, List<string> existingPredatorSpecies, List<string> existingHerboSpecies)
         {
             Console.Write("Введите тип животного из текущих: ");
@@ -24,7 +34,13 @@
                 Console.WriteLine("Такого типа животного нет в списке доступных типов. Повторите попытку.");
             }
         }
-
+        
+        
+        /// <summary>
+        /// Метод по добавлению хищника в зоопарк
+        /// </summary>
+        /// <param name="zoo">Зоопарк</param>
+        /// <param name="existingPredatorSpecies">Существующие на данный момент виды хищников</param>
         private static void AddPredator(Zoo zoo, List<string> existingPredatorSpecies)
         {
             Console.WriteLine("Введите вид животного из текущих для типа Predator:");
@@ -63,6 +79,11 @@
             }
         }
 
+        /// <summary>
+        /// Метод по добавлению травоядного в зоопарк
+        /// </summary>
+        /// <param name="zoo">Зоопарк</param>
+        /// <param name="existingHerboSpecies">Существующие на данный момент виды травоядных</param>
         private static void AddHerbo(Zoo zoo, List<string> existingHerboSpecies)
         {
             Console.WriteLine("Введите вид животного из текущих для типа Herbo:");
@@ -100,6 +121,10 @@
             }
         }
 
+        /// <summary>
+        /// Получение имени животного
+        /// </summary>
+        /// <returns>Имя животного</returns>
         private static string? GetAnimalName()
         {
             Console.WriteLine("Введите имя животного:");
@@ -112,6 +137,11 @@
             return name;
         }
 
+        /// <summary>
+        /// Получение номера животного (инвентарный номер)
+        /// </summary>
+        /// <param name="number"></param>
+        /// <returns>Корректность ввода</returns>
         private static bool TryGetAnimalNumber(out int number)
         {
             Console.WriteLine("Введите номер животного:");
@@ -122,7 +152,12 @@
             }
             return true;
         }
-
+        
+        /// <summary>
+        /// Получение количества еды, которое потребляет животное
+        /// </summary>
+        /// <param name="food">Значение еды</param>
+        /// <returns>Корректность ввода</returns>
         private static bool TryGetAnimalFood(out int food)
         {
             Console.WriteLine("Введите количество еды, которое потребляет животное:");

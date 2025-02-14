@@ -45,7 +45,7 @@ namespace FirstMiniHomework
                     Console.WriteLine($"{(option == 2 ? color : "")}2. Добавить вещь в зоопарк\u001b[0m");
                     Console.WriteLine($"{(option == 3 ? color : "")}3. Вывести необходимое количество еды животным в зоопарке\u001b[0m");
                     Console.WriteLine($"{(option == 4 ? color : "")}4. Вывести список животных, с которыми можно взаимодействовать в контактном зоопарке\u001b[0m");
-                    Console.WriteLine($"{(option == 5 ? color : "")}5. Вывести информацию об инвентаре в зоопарке\u001b[0m");
+                    Console.WriteLine($"{(option == 5 ? color : "")}5. Вывести информацию о всём, что стоит на балансе зоопарка\u001b[0m");
                     Console.WriteLine($"{(option == 6 ? color : "")}6. Выйти из программы\u001b[0m");
                     key = Console.ReadKey(true);
 

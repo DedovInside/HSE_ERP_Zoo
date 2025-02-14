@@ -105,3 +105,4 @@ C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework.Tests\obj\Debug\net9.0\refint\
 C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework.Tests\obj\Debug\net9.0\FirstMiniHomework.Tests.pdb
 C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework.Tests\obj\Debug\net9.0\FirstMiniHomework.Tests.genruntimeconfig.cache
 C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework.Tests\obj\Debug\net9.0\ref\FirstMiniHomework.Tests.dll
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHomework.Tests\obj\Debug\net9.0\FirstMiniHomework.Tests.sourcelink.json

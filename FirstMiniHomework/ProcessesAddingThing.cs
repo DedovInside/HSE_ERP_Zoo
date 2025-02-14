@@ -1,7 +1,15 @@
 ﻿namespace FirstMiniHomework
 {
+    /// <summary>
+    /// Класс, содержащий процессы добавления вещей в зоопарк
+    /// </summary>
     public static class ProcessesAddingThing
     {
+        /// <summary>
+        /// Основной метод по добавлению вещи в зоопарк
+        /// </summary>
+        /// <param name="zoo">Зоопарк, куда добавляем</param>
+        /// <param name="existingTypesOfThings">Существующий список типов вещей</param>
         public static void AddThingToZoo(Zoo zoo, List<string> existingTypesOfThings)
         {
             Console.WriteLine("Введите тип вещи из текущих: ");
@@ -24,6 +32,10 @@
             }
         }
 
+        /// <summary>
+        /// Метод по получению наименования вещи
+        /// </summary>
+        /// <returns></returns>
         private static string? GetThingName()
         {
             Console.WriteLine("Введите наименование вещи:");
@@ -35,7 +47,12 @@
             }
             return name;
         }
-
+        
+        /// <summary>
+        /// Метод по получению номера вещи и проверке его корректности
+        /// </summary>
+        /// <param name="number">Номер вещи</param>
+        /// <returns>Корректность ввода</returns>
         private static bool TryGetThingNumber(out int number)
         {
             Console.WriteLine("Введите номер вещи:");
@@ -47,6 +64,13 @@
             return true;
         }
 
+        /// <summary>
+        /// Метод по добавлению вещи в зоопарк по типу.
+        /// </summary>
+        /// <param name="zoo">Зоопарк</param>
+        /// <param name="thingType">Тип вещи, введённый пользователем</param>
+        /// <param name="number">Номер вещи</param>
+        /// <param name="name">Наименование вещи</param>
         private static void AddThingByType(Zoo zoo, string thingType, int number, string name)
         {
             if (zoo.Inventory.Any(t => t.GetType().Name == thingType && t.Name == name && t.Number == number))
