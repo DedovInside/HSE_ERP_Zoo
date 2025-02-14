@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BLvcWLb6q3w=",
+  "success": true,
+  "projectFilePath": "C:\\SoftwareConstruction\\ERP_Zoo\\FirstMiniHomework\\FirstMiniHomework.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnn\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.2\\microsoft.extensions.dependencyinjection.9.0.2.nupkg.sha512",
+    "C:\\Users\\johnn\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.2\\microsoft.extensions.dependencyinjection.abstractions.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

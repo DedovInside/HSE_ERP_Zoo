@@ -1,0 +1,14 @@
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\bin\Debug\net9.0\FirstMiniHimework.exe
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\bin\Debug\net9.0\FirstMiniHimework.deps.json
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\bin\Debug\net9.0\FirstMiniHimework.runtimeconfig.json
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\bin\Debug\net9.0\FirstMiniHimework.dll
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\bin\Debug\net9.0\FirstMiniHimework.pdb
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.GeneratedMSBuildEditorConfig.editorconfig
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.AssemblyInfoInputs.cache
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.AssemblyInfo.cs
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.csproj.CoreCompileInputs.cache
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.dll
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\refint\FirstMiniHimework.dll
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.pdb
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\FirstMiniHimework.genruntimeconfig.cache
+C:\SoftwareConstruction\ERP_Zoo\FirstMiniHimework\obj\Debug\net9.0\ref\FirstMiniHimework.dll
